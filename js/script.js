@@ -7,7 +7,7 @@ for (var i = 0; i < names.length; i++) {
   var firstLetter = names[i].charAt(0).toLowerCase();
 
 var helloSpeaker = {};
-helloSpeaker.name = "Hello";
+helloSpeaker.names = "Hello";
 helloSpeaker.speak = function () 
 
   if(firstLetter === "j") {
